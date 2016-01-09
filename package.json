@@ -1,8 +1,11 @@
 {
-  "name": "contactlistapp",
+  "name": "shoppinglistapp",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+    "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "body-parser": "^1.10.2",
     "engines": {
@@ -16,14 +19,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/michaelcheng429/meanstacktutorial.git"
+    "url": "https://github.com/good886/shopping-list-mean.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/michaelcheng429/meanstacktutorial/issues"
+    "url": "https://github.com/good886/shopping-list-mean/issues"
   },
-  "homepage": "https://github.com/michaelcheng429/meanstacktutorial"
+  "homepage": "https://github.com/good886/shopping-list-mean/"
 }
